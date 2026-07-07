@@ -3,7 +3,7 @@ services:
     name: antares-manager
     env: node
     region: singapore
-    plan: starter
+    plan: free
     buildCommand: npm install --production --no-fund --no-audit
     startCommand: node main.js
     healthCheckPath: /
